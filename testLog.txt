@@ -1,0 +1,345 @@
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 9, 9, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 9, 9, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 5, 5, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 10 bins for bin width 30 with edges: [  0  30  60  90 120 150 180 210 240 270 300])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 9, 9, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 6 bins for bin width 30 with edges: [  0  30  60  90 120 150 180])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 5, 5, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 115 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 115 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 115 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 104, 104, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 102 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 102 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 102 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 96, 96, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 108, 108, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.shape: Initializing feature class
+DEBUG:radiomics.shape: Padding the mask with 0s
+DEBUG:radiomics.shape: Pre-calculate Volume, Surface Area and Eigenvalues
+DEBUG:radiomics.shape: Shape feature class initialized
+DEBUG:radiomics.glcm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.ngtdm: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.imageoperations: Calculated 125 bins for bin width 10 with edges: [   0   10   20   30   40   50   60   70   80   90  100  110  120  130
+  140  150  160  170  180  190  200  210  220  230  240  250  260  270
+  280  290  300  310  320  330  340  350  360  370  380  390  400  410
+  420  430  440  450  460  470  480  490  500  510  520  530  540  550
+  560  570  580  590  600  610  620  630  640  650  660  670  680  690
+  700  710  720  730  740  750  760  770  780  790  800  810  820  830
+  840  850  860  870  880  890  900  910  920  930  940  950  960  970
+  980  990 1000 1010 1020 1030 1040 1050 1060 1070 1080 1090 1100 1110
+ 1120 1130 1140 1150 1160 1170 1180 1190 1200 1210 1220 1230 1240 1250])
+DEBUG:radiomics.firstorder: First order feature class initialized
+DEBUG:radiomics.firstorder: Calculating features
+DEBUG:radiomics.shape: Calculating features
+DEBUG:radiomics.glcm: Calculating GLCM matrix in C
+DEBUG:radiomics.glcm: Process calculated matrix
+DEBUG:radiomics.glcm: Create symmetrical matrix
+DEBUG:radiomics.glcm: No empty angles
+DEBUG:radiomics.glcm: Calculating GLCM coefficients
+DEBUG:radiomics.glcm: GLCM feature class initialized, calculated GLCM with shape (1, 108, 108, 13)
+DEBUG:radiomics.glcm: Calculating features
+WARNING:radiomics.glcm: GLCM is symmetrical, therefore Sum Average = 2 * Joint Average, only 1 needs to be calculated
+DEBUG:radiomics.ngtdm: Calculating features
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
+DEBUG:radiomics.firstorder: Initializing feature class
+DEBUG:radiomics.imageoperations: Discretizing gray levels inside ROI
