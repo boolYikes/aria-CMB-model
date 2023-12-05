@@ -1,4 +1,3 @@
 # aria-CMB-model
-ARIA-H WATCHDOG!
-To use the docker image and start jupyter server, docker pull xuanminator/dee_env
-And then goto the workspace directory, and bash ./startnote.sh
+* nnUNetv1에 사용한 도커 이미지 : docker pull xuanminator/cu101_nnunet:4.3 (CUDA 10.1 + amd64 arch 용임!!!)
+* 
