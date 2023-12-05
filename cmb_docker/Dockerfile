@@ -1,10 +1,11 @@
 FROM ubuntu:latest
 RUN apt-get update && \
-    apt-get install -y python 3.11 \
+    apt-get install -y python3.11 \
     python3-pip
 
-RUN pip3 install JPypel jupyter pandas numpy seaborn scipy matplotlib pyNetLogo SALib configparser SimpleITK
+RUN pip3 install JPype1 jupyter pandas numpy seaborn scipy matplotlib pyNetLogo SALib configparser SimpleITK
 RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip3 install scikit-learn scikit-image nibabel
 
 RUN useradd -ms /bin/bash/ jupyter
 USER jupyter
