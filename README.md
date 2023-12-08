@@ -1,12 +1,14 @@
 # aria-CMB-model
 ### Schtuff
-- nnUNetv1에 사용한 도커 이미지 : docker pull xuanminator/cu101_nnunet:4.3 (CUDA 10.1 + amd64 arch 용임!!!)
-- 노션 정리: https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4
+- nnUNetv1에 사용한 도커 이미지: CUDA10.1, AMD64
+	```docker pull xuanminator/cu101_nnunet:4.4```
+- 노션 정리
+	```https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4```
 - 도커 내에서 /scripts 및 ~/.bashrc 에 환경변수 및 스크립트 포함
 
 ### Instructions
 1. dgxbox에서
-	- docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host   xuanminator/cu101_nnunet:4.3 /bin/bash
+	```docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host xuanminator/cu101_nnunet:4.4 /bin/bash```
 2. conda activate nnunet01
 3. 4번 실행에 앞서 /storage2/dwseon/dat/raw/... 에 데이터가 준비되어있어야 함
 4. /nnunet/nnunet/dataset_conversion의 파이썬 스크립트로 전처리를 해도 되긴 하지만 매뉴얼로 파일 구조 정렬하고 dataset.json 만들었음
