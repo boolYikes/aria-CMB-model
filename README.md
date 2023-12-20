@@ -1,7 +1,8 @@
 # aria-CMB-model
+- xuanminator/aria-cmb는 아직 미완(ants, hd-bet, nnunet컨테이너와 통합 예정)
 ### Schtuff
 - nnUNetv1에 사용한 도커 이미지: CUDA10.1, AMD64
-	- ```docker pull xuanminator/cu101_nnunet:4.5```
+	- ```docker pull xuanminator/cu101_nnunet:4.6```
 - 노션 정리
 	- https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4
 - 도커 내에서 ```/scripts``` 및 ```~/.bashrc``` 에 환경변수 및 스크립트 포함
