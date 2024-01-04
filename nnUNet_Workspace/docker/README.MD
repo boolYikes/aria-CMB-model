@@ -1,0 +1,2 @@
+- aria_cmb 도커이미지를 베이스로 해서 빌드하는 dockerfile로 정리 ?
+- 모델 weights는 gitignore함
