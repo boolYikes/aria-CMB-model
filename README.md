@@ -11,7 +11,10 @@
 	- https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4
 - 도커 내에서 ```/scripts``` 및 ```~/.bashrc``` 에 환경변수 및 스크립트 포함
 
-### Instructions
+### Inference instructions
+1. 
+
+### Train Instructions
 1. dgxbox에서
 	- ```docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host xuanminator/cu101_nnunet:4.4 /bin/bash```
 2. ```conda activate nnunet01```

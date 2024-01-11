@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Some verbose
+if [ "$#" -ne 2 ]; then
+	echo -e "Example: $0 \033[31m[/local/dir/to/mount] [version]\033[0m"
+	echo -e "Or modify \033[31mrun\033[0m file."
+	exit 1
+fi
+
+curr=$(pwd)
+cd /storage/dee/docker
+
+# Arguments
+volume=$1
+version=$2
+name="xuanminator/aria_cmb:${version}"
+
+# Check and build image
+if docker images --format "{{.Repository}}:{{.Tag}}" | grep -q "${name}"; then
+	echo "Image ${name} exists. Checking for containers..."
+else
+	echo "Building '${name}'"
+	docker build --no-cache --build-arg CMB_VER=${version} -t ${name} .
+	docker builder prune -f
+fi
+
+# Check and run container
+if [ "$(docker ps -q -f ancestor=${name})" ]; then
+	echo "Container exists."
+	id=$(docker ps -q -f ancestor=${name})
+
+	# is it running?
+	if [ "$(docker inspect -f '{{.State.Status}}' ${id})" == "running" ]; then	
+		echo -e "Already running! Use \033[31minfer\033[0m to do stuff!"
+	else
+		echo "Starting existing container"
+		docker start ${id}
+	fi
+else
+	echo "No container found. Running anew."
+	docker run -dit --name aria_cmb --gpus all --ipc=host -v ${volume}:/workspace ${name}
+fi
+
+cd ${curr}

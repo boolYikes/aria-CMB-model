@@ -1,0 +1,48 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then
+	echo -e "usage: $0 \033[31m[input/file/name] [patient/number]\033[0m"
+	echo -e "ex: $0 oid_001.nii.gz 001"
+	exit 1
+fi
+
+# pipeline : upload file to /workspace/Data/b4_strip -> BET result to ftr_strip -> move result to prepped -> inference to cmb
+disk="/storage/dee"
+volume="/workspace"
+
+format=".nii.gz"
+i_path="${volume}/Data/b4_strip/$1"
+bet_name="$2_0000${format}"
+pre_path="${volume}/Data/ftr_strip/${bet_name}"
+bet_mask="$2_0000_mask${format}"
+o_path="${volume}/Data/cmb/$2"
+tmp="/Data/prepped/${bet_name}"
+
+if [ -e "${o_path}" ]; then
+	echo "Patient $2 already exists in result folder. Check your input!"
+	exit 1
+else
+	mkdir ${o_path}
+fi
+
+# BET
+docker exec -it aria_cmb /opt/conda/envs/bet/bin/hd-bet -i ${i_path}  -o ${pre_path}
+
+# Discard masks as we don't need them. Comment out if you need this.
+rm -f ${disk}/Data/ftr_strip/${bet_mask}
+sudo cp -f ${disk}/Data/ftr_strip/${bet_name} ${disk}${tmp}
+echo "DONE...Proceeding to segementation..."
+
+# CMB segmentation. Uncomment -z for softmax
+docker exec -it aria_cmb conda run -n nnunet nnUNet_predict \
+	 -i ${volume}/Data/prepped \
+	 -o ${o_path} \
+	 -tr nnUNetTrainerV2 \
+	 -ctr nnUNetTrainerV2CascadeFullRes \
+	 -m 3d_fullres \
+	 -p nnUNetPlansv2.1 \
+	 -t Task999_CMB \
+	 # -z
+
+# Tidy up temp folder... permission denied?? ... resorting to the container-side
+docker exec -it aria_cmb rm -f ${volume}${tmp}
