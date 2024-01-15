@@ -30,7 +30,7 @@ docker exec -it aria_cmb /opt/conda/envs/bet/bin/hd-bet -i ${i_path}  -o ${pre_p
 
 # Discard masks as we don't need them. Comment out if you need this.
 rm -f ${disk}/Data/ftr_strip/${bet_mask}
-sudo cp -f ${disk}/Data/ftr_strip/${bet_name} ${disk}${tmp}
+docker exec -it cp -f ${volume}/Data/ftr_strip/${bet_name} ${volume}${tmp}
 echo "DONE...Proceeding to segementation..."
 
 # CMB segmentation. Uncomment -z for softmax
