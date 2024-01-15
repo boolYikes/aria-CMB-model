@@ -45,6 +45,7 @@ RUN /opt/conda/bin/conda run -n nnunet pip install nnunet
 RUN mkdir -p /dat/pre && mkdir -p /dat/raw
 RUN mkdir -p /dat/res/nnUNet/3d_fullres/Task999_CMB/nnUNetTrainerV2__nnUNetPlansv2.1
 COPY ./nnUNetTrainerV2__nnUNetPlansv2.1 /dat/res/nnUNet/3d_fullres/Task999_CMB/nnUNetTrainerV2__nnUNetPlansv2.1
+RUN chmod -R 755 /dat/res/nnUNet/3d_fullres/Task999_CMB/nnUNetTrainerV2__nnUNetPlansv2.1
 ## Copy aliases and script stuff
 COPY ./.bash_aliases /root/.bash_aliases
 COPY ./paths.py /opt/conda/envs/nnunet/lib/python3.9/site-packages/nnunet/
