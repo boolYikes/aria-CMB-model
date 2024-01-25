@@ -19,7 +19,7 @@ export RESULTS_FOLDER="/workspace/dwseon/dat/res"
    *: 2번째 train에서는 —-disable_ensembling 없이도 됨 / 플랜은 3d_fullres만 돌림
 
 7. predict: inference gpus load: 약 2500MB
-```docker
+```bash
 nnUNet_predict -i FOLDER_WITH_TEST_CASES \ # 3번에서 json에 imagesTs를 설정해줬다면 해당 패쓰에 생성되어있음
  -o OUTPUT_FOLDER_MODEL1 \ # 원하는곳 지정
  -tr nnUNetTrainerV2 \
@@ -31,7 +31,7 @@ nnUNet_predict -i FOLDER_WITH_TEST_CASES \ # 3번에서 json에 imagesTs를 설�
 ```
 
 8. ensemble
-```docker
+```bash
 # 역시 위에서 --disable_ensembling 안하면 안되는듯. 
 # 이 부분은 API안쓰고 수동으로 계산 해야할듯
 **# GJ 서버에서 deploy 하면 패키지 버전이 맞아서 될 수도 있음**
