@@ -1,9 +1,11 @@
 ### Finetuning 실행 방법 (도커 컨테이너 시작 후 내부 셸에서 실행한다)
 
 1. 아무 곳에나 준비한 데이터셋을 두고, 환경변수 export
-`export nnUNet_raw_data_base="/workspace/dwseon/dat/raw"
- export nnUNet_preprocessed="/workspace/dwseon/dat/pre"
- export RESULTS_FOLDER="/workspace/dwseon/dat/res"`
+```bash
+export nnUNet_raw_data_base="/workspace/dwseon/dat/raw"
+export nnUNet_preprocessed="/workspace/dwseon/dat/pre"
+export RESULTS_FOLDER="/workspace/dwseon/dat/res"
+```
 
 2. nnunet 설치 폴더의 dataset_conversion폴더에서 TaskXXX_YYY.py중 하나를 내 데이터에 맞게 편집 한다 : 999번으로 함
 
