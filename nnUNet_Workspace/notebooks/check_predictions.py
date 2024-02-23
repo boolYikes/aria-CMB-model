@@ -1,3 +1,4 @@
+# 레이블에 0과 1 외의 다른 값이 있는지 검사
 # CHECK LABELS FOR UNIQUE 0 AND 1s
 import os
 import numpy as np
