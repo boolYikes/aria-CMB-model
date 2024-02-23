@@ -1,20 +1,14 @@
-# aria-CMB-model
-- xuanminator/aria-cmb는 아직 미완(ants, hd-bet, nnunet컨테이너와 통합 예정)
-### TODO
-- Inference용 script (py or sh; either way works)
-
-### Schtuff
-- nnUNetv1 train에사용한 도커 이미지: CUDA10.1, AMD64
+# ...
+- 파인튜닝에사용한 도커 이미지: CUDA10.1, x86_64, dgx1서버
 	- ```docker pull xuanminator/cu101_nnunet:4.6```
-- Inference 이미지 : nnUNet_Workspace의 dockerfile참조 (또는 gj서버 xuanminator/aria_cmb:1.3) -> hub에 안올림
+- 인퍼런스도커 도커 이미지 : CUDA 12.0, x86_64
+  	- 광주 서버 도커이미지 xuanminator/aria_cmb:2.2 
+	- 빌드는 nnUNet_Workspace의 dockerfile 참조
 - 노션 정리
 	- https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4
 - 도커 내에서 ```/scripts``` 및 ```~/.bashrc``` 에 환경변수 및 스크립트 포함
 
-### Inference instructions
-1. 
-
-### Train Instructions
+# Train Instructions
 1. dgxbox에서
 	- ```docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host xuanminator/cu101_nnunet:4.4 /bin/bash```
 2. ```conda activate nnunet01```
