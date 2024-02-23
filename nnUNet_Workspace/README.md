@@ -1,4 +1,4 @@
-### Finetuning 실행 방법 (도커 컨테이너 시작 후 내부 셸에서 실행한다)
+# Inference 실행 방법 (도커 컨테이너 시작 후 내부 셸에서 실행한다)
 
 1. 아무 곳에나 준비한 데이터셋을 두고, 환경변수 export
 ```bash
@@ -23,7 +23,7 @@ export RESULTS_FOLDER="/workspace/dwseon/dat/res"
 nnUNet_find_best_configuration -t 999 -m 2d 3d_fullres --disable_ensembling
 ```
 
-8. predict: inference gpus load: 약 2500MB
+8. Inference gpus load: 약 2500MB
 ```bash
 nnUNet_predict -i FOLDER_WITH_TEST_CASES \ # 3번에서 json에 imagesTs를 설정해줬다면 해당 패쓰에 생성되어있음
  -o OUTPUT_FOLDER_MODEL1 \ # 원하는곳 지정
