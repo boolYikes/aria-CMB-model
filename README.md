@@ -1,8 +1,8 @@
 # ...
 - 파인튜닝에사용한 도커 이미지: CUDA10.1, x86_64, dgx1서버
-	- ```docker pull xuanminator/cu101_nnunet:4.6```
+	- ```docker pull #####```
 - 인퍼런스도커 도커 이미지 : CUDA 12.0, x86_64
-  	- 광주 서버 도커이미지 xuanminator/aria_cmb:2.2 
+  	- 광주 서버 도커이미지 #####/#####
 	- 빌드는 nnUNet_Workspace의 dockerfile 참조
 - 노션 정리
 	- https://
@@ -10,7 +10,7 @@
 
 # Train Instructions
 1. dgxbox에서
-	- ```docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host xuanminator/cu101_nnunet:4.4 /bin/bash```
+	- ```docker run -it --rm --name nnunet --gpus all -p 8888:8888 -v /storage2:/workspace --ipc=host user/image:tag /bin/bash```
 2. ```conda activate nnunet01```
 3. 4번 실행에 앞서 ```/storage2/dwseon/dat/raw/...``` 에 데이터가 준비되어있어야 함
 4. ```/nnunet/nnunet/dataset_conversion```의 파이썬 스크립트로 전처리를 해도 되긴 하지만 매뉴얼로 파일 구조 정렬하고 dataset.json 만들었음
