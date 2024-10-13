@@ -5,7 +5,7 @@
   	- 광주 서버 도커이미지 xuanminator/aria_cmb:2.2 
 	- 빌드는 nnUNet_Workspace의 dockerfile 참조
 - 노션 정리
-	- https://www.notion.so/1a9a2fcc202442cdb5fc7ca9a36616f1?pvs=4
+	- https://
 - 도커 내에서 ```/scripts``` 및 ```~/.bashrc``` 에 환경변수 및 스크립트 포함
 
 # Train Instructions
